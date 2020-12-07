@@ -6,5 +6,6 @@ RUN pip install mlflow>=1.0 \
     && pip install scipy \
     && pip install pandas==0.22.0 \
     && pip install scikit-learn==0.19.1 \
-    && pip install cloudpickle \
-    && pip install boto3
+    && pip install cloudpickle
+
+RUN pip install boto3==1.13.13
