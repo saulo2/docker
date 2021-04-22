@@ -1,7 +1,7 @@
 name: docker-example
 
 docker_env:
-  image:  mlflow-docker-example
+  image: continuumio/miniconda3:4.8.2
 
 entry_points:
   main:
