@@ -1,7 +1,7 @@
 name: docker-example
 
 docker_env:
-  image: pam-example-base:0.0.1-SNAPSHOT
+  image: host.docker.internal:5001/pam-example-base:0.0.1-SNAPSHOT
 
 entry_points:
   main:
