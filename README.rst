@@ -62,3 +62,4 @@ Environment variables, such as ``MLFLOW_TRACKING_URI``, are propagated inside th
 project execution. When running against a local tracking URI, MLflow mounts the host system's 
 tracking directory (e.g., a local ``mlruns`` directory) inside the container so that metrics and 
 params logged during project execution are accessible afterwards.
+
