@@ -11,4 +11,4 @@ entry_points:
     command: "python train.py --alpha {alpha} --l1-ratio {l1_ratio}"
 
 placida_env:
-  image: pam-example-base:0.0.1-SNAPSHOT
+  image: pam-example-base:0.0.1-SNAPSHOT@sha256:90b5c1329d130d89b48eabe9f064e526db06303d61abf99aaa1e64f7d472a1af
